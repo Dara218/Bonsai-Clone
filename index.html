@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bonsai - Pricing Clone</title>
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/1605571568419184640/4b8-WUqX_400x400.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="bonsai.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+   
+    <div class="main-container">
+
+         <nav class="main-nav">
+            <div class="left-nav">
+                <img src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635b95cfdbc1e264b35486ad_Symbols.svg" alt="bonsai logo">
+
+                <ul>
+                    <a href="#" id="productNormalNav"><li>Product</li></a>
+                    <a href="#" id="industriesNormalNav"><li>Industries</li></a>
+                    <a href="#" id="templatesNormalNav"><li>Templates</li></a>
+                    <a href="#"><li>Pricing</li></a>
+                    <a href="#"><li>Reviews</li></a>
+                </ul>
+            </div>
+            <div class="right-nav">
+                <a href="#">Log in</a>
+                <div class="btn-holder">
+                    <button class="short-btn">Start free</button>
+                </div>
+            </div>
+
+            <i class="fa-solid fa-bars"></i>
+        </nav>
+
+        <div class="pop-up"  id="pop-up-product">
+            <ul>
+                <li><b>Client Management</b></li>
+                <br>
+                <a href="#"><li>CRM</li></a>
+                <a href="#"><li>Scheduling</li></a>
+                <a href="#"><li>Proposals</li></a>
+                <a href="#"><li>Contracts</li></a>
+                <a href="#"><li>Forms</li></a>
+            </ul>
+            <ul>
+                <li><b>Project Management</b></li>
+                <br>
+                <a href="#"><li>Time Tracking</li></a>
+                <a href="#"><li>Tasks</li></a>
+                <a href="#"><li>File sharing</li></a>
+                <a href="#"><li>Client portal</li></a>
+                <a href="#"><li>Collaboration</li></a>
+            </ul>
+            <ul>
+                <li><b>Financial Management</b></li>
+                <br>
+                <a href="#"><li>Invoicing</li></a>
+                <a href="#"><li>Payments</li></a>
+                <a href="#"><li>Accounting</li></a>
+                <a href="#"><li>Taxes</li></a>
+                <a href="#"><li>Banking</li></a>
+            </ul>
+            <ul>
+                <li><b>What's new</b></li>
+                <br>
+                <a href="#"><li><img src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/6398d9d0935e08a732d0c785_scheduling-preview.jpg" alt=""></li></a>
+                
+                <li>Branded scheduling portal</li>
+                
+                <a href="#" id="learn-more-pop"><li>Learn more</li></a>
+            </ul>
+        </div>
+
+        <div class="pop-up" id="pop-up-industries">
+            <ul>
+                <li><b>Business Services</b></li>
+                <br>
+                <a href="#"><li>Consulting</li></a>
+                <a href="#"><li>Marketing</li></a>
+                <a href="#"><li>Recruiting</li></a>
+                <a href="#"><li>Virtual assistant</li></a>
+                <a href="#"><li>More...</li></a>
+            </ul>
+            <ul>
+                <li><b>Creative and Digital</b></li>
+                <br>
+                <a href="#"><li>Design</li></a>
+                <a href="#"><li>Photography</li></a>
+                <a href="#"><li>Software development</li></a>
+                <a href="#"><li>Writing</li></a>
+                <a href="#"><li>More...</li></a>
+            </ul>
+            <ul>
+                <li><b>Professional Services</b></li>
+                <br>
+                <a href="#"><li>Coaching</li></a>
+                <a href="#"><li>Architecture</li></a>
+                <a href="#"><li>Accounting</li></a>
+                <a href="#"><li>Legal</li></a>
+                <a href="#"><li>More...</li></a>
+            </ul>
+            <ul>
+                <li><b>Other Services</b></li>
+                <br>
+                <a href="#"><li>Event planning</li></a>
+                <a href="#"><li>Interior Design</li></a>
+                <a href="#"><li>Real-Estate</li></a>
+                <a href="#"><li>More...</li></a>
+            </ul>
+        </div>
+
+        <div class="pop-up-third">
+            <div class="templates">
+                <ul>
+                    <a href="#"><li  id="contract-special">Contract Templates<i class="fa-solid fa-arrow-right"></i></li></a>
+                    <a href="#"><li>Proposal Templates</li></a>
+                    <a href="#"><li>Invoice Templates</li></a>
+                    <a href="#"><li>Quote Templates</li></a>
+                    <a href="#"><li>Scope of the work Templates</li></a>
+                    <a href="#"><li>Brief Templates</li></a>
+                    <a href="#"><li>Form Templates</li></a>
+                </ul>             
+            </div>
+
+            <div class="right-templates">
+                <h4>Featured contract templates</h4>
+                <div>
+                    <ul>
+                        <a href="#"><li>Client Contract Template</li></a>
+                        <a href="#"><li>Free Design Contract Template</li></a>
+                        <a href="#"><li>Free Freelance Contract Template</li></a>
+                        <a href="#"><li>Free Hourly Rate Contract Template</li></a>
+                        <a href="#"><li>Free Non-Disclosure Agreement Template</li></a>
+                        <a href="#"><li>Free Project Management Agreement Template</li></a>
+                    </ul>
+                    <ul>
+                        <a href="#"><li>Construction Contract Template</li></a>
+                        <a href="#"><li>Free Employment Contract Template</li></a>
+                        <a href="#"><li>Free General Contract Template</li></a>
+                        <a href="#"><li>Free Independent Contractor Agreement Contract Template</li></a>
+                        <a href="#"><li>Free Online Contract Template</li></a>
+                        <a href="#"><li>Free Service Agreement Template</li></a>
+                    </ul>
+                </div>
+                <span><a href="#">See all templates</a></span>
+            </div>
+        </div>
+
+        <div class="pop-up-mobile">
+            <!-- <div class="pop-up-item"> -->
+                <ul class="main-ul">
+                    <li class="pop-media-ul">Product<i class="fa-solid fa-chevron-down"></i></li>
+                    <br>
+                    <div class="pop-media-li">
+                        <a href="#"><li>CRM</li></a>
+                        <a href="#"><li>Scheduling</li></a>
+                        <a href="#"><li>Proposals</li></a>
+                        <a href="#"><li>Contracts</li></a>
+                        <a href="#"><li>Forms</li></a>
+                        <a href="#"><li>Time Tracking</li></a>
+                        <a href="#"><li>Tasks</li></a>
+                        <a href="#"><li>File sharing</li></a>
+                        <a href="#"><li>Client portal</li></a>
+                        <a href="#"><li>Collaboration</li></a>
+                        <a href="#"><li>Invoicing</li></a>
+                        <a href="#"><li>Payments</li></a>
+                        <a href="#"><li>Accounting</li></a>
+                        <a href="#"><li>Taxes</li></a>
+                        <a href="#"><li>Banking</li></a>
+                    </div>
+                </ul>
+                <ul class="main-ul">
+                    <li class="pop-media-ul">Templates<i class="fa-solid fa-chevron-down"></i></li>
+                    <br>
+                    <div class="pop-media-li">
+                        <a href="#"><li>Agreements</li></a>
+                        <a href="#"><li>Briefs</li></a>
+                        <a href="#"><li>Contracts</li></a>
+                        <a href="#"><li>Credit notes</li></a>
+                        <a href="#"><li>Estimates</li></a>
+                        <a href="#"><li>Forms</li></a>
+                        <a href="#"><li>Invoices</li></a>
+                        <a href="#"><li>Proposals</li></a>
+                        <a href="#"><li>Quotes</li></a>
+                        <a href="#"><li>Scopes of Work</li></a>
+
+                    </div>
+                </ul>
+                <ul>
+                    <li>Pricing</li>
+                    <br>
+                </ul>
+                <ul>
+                    <li>Reviews</li>
+                    <br>
+                </ul>
+
+                <div class="btn-holder">
+                    <button>Login</button>
+                    <button>Start free</button>
+                </div>
+
+            <!-- </div> -->
+        </div>
+        
+        <div class="inside-container">
+            <div class="below-nav">
+                <a href="#">Small businesses</a>
+                <a href="#">Agencies</a>
+                <a href="#">Freelancers</a>
+            </div>
+
+            <div class="toggle-center">
+               <div class="top-center">
+                    <h2>Pick the best plan for your business</h2>
+
+                    <div class="toggle">
+                        <input type="checkbox" name="check" id="check">
+
+                        <label for="check" class="label-check">
+                            <span>monthly</span><span>Yearly</span><span>2 months for free</span>
+                            <div class="circle"></div>
+                        </label>
+                    </div>
+               </div>
+            </div>
+
+            <div class="three-money-cards">
+                <div class="card">
+                    <div>
+                        <h2>Starter</h2>
+                        <span><h2 id="starterNumber">&#x24; 24</h2>/month</span>
+
+                        <div class="btn-holder">
+                            <button class="card-btn">Start for free</button>
+                        </div>
+
+                        <p>Ideal for freelancers and contractors just starting out.</p>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>All Templates</li>
+                            <li><i class="fa-solid fa-check"></i>Unlimited Clients & Projects</li>
+                            <li><i class="fa-solid fa-check"></i>Invoicing & Payments</li>
+                            <li><i class="fa-solid fa-check"></i>Proposal & Contracts</li>
+                            <li><i class="fa-solid fa-check"></i>Tasks & Time Tracking</li>
+                            <li><i class="fa-solid fa-check"></i>Client CRM</li>
+                            <li><i class="fa-solid fa-check"></i>Expense Tracking</li>
+                            <li><i class="fa-solid fa-check"></i>Up to 5 Project Collaborators</li>
+                        </ul>
+
+                        <div class="btn-holder">
+                            <button class="card-btn">Start for free</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card-orange">
+                    <span id="orange-top-span">Best value for money</span>
+                    <div class="card">
+                        <div>
+                            <h2>Professional</h2>
+                            <span><h2 id="professionalNumber">&#x24; 39</h2>/month</span>
+    
+                            <div class="btn-holder">
+                                <button class="card-btn">Start for free</button>
+                            </div>
+    
+                            <p>Everything a growing independent business needs to thrive</p>
+                        </div>
+    
+                        <div>
+                            <ul>
+                                <li><i class="fa-solid fa-check"></i>Everything in Starter, plus:</li>
+                                <li><i class="fa-solid fa-check"></i>Custom Branding</li>
+                                <li><i class="fa-solid fa-check"></i>Forms & Questionnaries</li>
+                                <li><i class="fa-solid fa-check"></i>Workflow Automations</li>
+                                <li><i class="fa-solid fa-check"></i>Client Portal</li>
+                                <li><i class="fa-solid fa-check"></i>QuickBooks Integrations</li>
+                                <li><i class="fa-solid fa-check"></i>Calendly Integrations</li>
+                                <li><i class="fa-solid fa-check"></i>Zapier Integrations</li>
+                                <li><i class="fa-solid fa-check"></i>Up to 15 Project Collaborators</li>
+                            </ul>
+    
+                            <div class="btn-holder">
+                                <button class="card-btn">Start for free</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div>
+                        <h2>Business</h2>
+                        <span><h2 id="businessNumber">&#x24; 79</h2>/month</span>
+
+                        <div class="btn-holder">
+                            <button class="card-btn">Start for free</button>
+                        </div>
+
+                        <p>The perfect package for small businesses and agencies.</p>
+                    </div>
+
+                    <div>
+                        <ul>
+                            <li><i class="fa-solid fa-check"></i>Everything in Professional, plus:</li>
+                            <li><i class="fa-solid fa-check"></i>Subcontractor Management</li>
+                             <div>
+                                <i class="fa-solid fa-check"></i>
+                                <span>Hiring Agreement Templates (1099 contractors)</span>
+                             </div>
+                            <li><i class="fa-solid fa-check"></i>Subcontractor Onboarding</li>
+                            <li><i class="fa-solid fa-check"></i>Talent Pool</li>
+                            <div>
+                                <i class="fa-solid fa-check"></i>
+                                <span>3 Team Seats additional seats $9/month</span>
+                            </div>
+                            <li><i class="fa-solid fa-check"></i>Accountant Access</li>
+                            <li><i class="fa-solid fa-check"></i>Connect Multiple Bank Accounts</li>
+                            <li><i class="fa-solid fa-check"></i>Unlimited Subcontractors</li>
+                            <li><i class="fa-solid fa-check"></i>Unlimited Project Collaborators</li>
+                        </ul>
+
+                        <div class="btn-holder">
+                            <button class="card-btn">Start for free</button>
+                        </div>
+                        
+                    </div>
+                </div>             
+            </div>
+            
+            <div class="add-ons-cards">
+                <h2 id="main-h2-add">Take it to the <br> next level with add-ons</h2>
+
+                <div class="add-on-item-holder">
+                    <div class="add-on-item">
+                        <h3>Collaborators</h3>
+                        <p>Invite other users to specific projects for limited access and functionality.</p>
+                        <span><h2>Free</h2></span>
+                    </div>
+                    <div class="add-on-item">
+                        <h3>Partners</h3>
+                        <p>Invite other users for full account access and company management.</p>
+                        <span><h2>&#x24; 9 &nbsp;</h2>/month</span>
+                    </div>
+                    <div class="add-on-item">
+                        <h3>Tax Assistant</h3>
+                        <p>Track expenses, identify write-offs, and estimate quarterly taxes easily.</p>
+                        <a href="#">Learn more</a>
+                        <span><h2>&#x24; 10 &nbsp;</h2>/month</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="questions-container">
+                <h2>Frequently asked questions</h2>
+
+                <div class="question-holder">
+                    <div class="question-item">
+                        <h3 class="h3-ques" id="ques1">How does the free trial work?
+                            <i class="fa-solid fa-angle-up"></i>
+                        </h3>                       
+                        <p class="ques-active">When you start your trial with Bonsai you'll receive full, unlimited access to all of Bonsai's Workflow or Workflow Plus Features! You will need to enter your credit card information to begin your trial, but don't worry - we won't charge you anything until the subscription ends! If you wish to cancel at any time during the trial period, you can do so through your Subscriptions Settings Page.</p>
+                    </div>
+
+                    <div class="question-item">
+                        <h3 class="h3-ques" id="ques2">Can I change my plan anytime?
+                            <i class="fa-solid fa-angle-up"></i>
+                        </h3>                      
+                        <p class="ques-active">Yes, you can from within your account. If you have already subscribed to a plan, or want to downgrade or upgrade your current one, you can do this by going to your "Settings" and "Subscription".</p>
+                    </div>
+
+                    <div class="question-item">
+                        <h3 class="h3-ques" id="ques3">How do I pause my Bonsai subscription?
+                            <i class="fa-solid fa-angle-up"></i>
+                        </h3>
+                        
+                        <p class="ques-active">                   
+                            We totally understand that with the nature of freelancing, work ebbs and flows so you might not always need your Bonsai subscription to remain active! The good news is that you can cancel or pause your monthly subscription at any time without penalty. Once cancelled, you'll be able to continue logging in to access all your documents and even continue to use our free features, like Time Tracking! In order to cancel your subscription, login to your Bonsai account.</p>
+                    </div>
+
+                      <div class="question-item">
+                        <h3 class="h3-ques" id="ques4">What is your refund policy?
+                            <i class="fa-solid fa-angle-up"></i>
+                        </h3>                       
+                        <p class="ques-active">If you contact us within 2 weeks of being charged for your subscription, we will be happy to issue a refund for you!Beyond those 2 weeks, you will need to cancel or modify the subscription from the Subscriptions Tab in Settings to avoid future charges, but refunds will not be issued. This applies to both monthly and annual plans.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trusted">
+                <h2>Trusted by 500,000+ <br> business owners</h2>
+
+                <div>
+                    <a href="https://www.g2.com/products/bonsai/reviews" rel="noreferrer noopenner" target="_blank"><img alt src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/6368ee758abc407679fe354f_g2.svg"></a>
+                    <a href="https://www.trustpilot.com/review/hellobonsai.com" rel="noopenner norefferer" target="_blank"><img alt src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/6373c6aeee36d38e1468ad70_Trustpilot.svg"></a>
+                </div>
+            </div>
+
+            <div class="comments-container">
+                <div class="comment-holder">
+                    <div class="large">
+                        <p>“My best friend in scaling my business”</p>
+                    </div>
+                    <div class="large">
+                        <p>“Like putting my finances on auto-pilot”</p>
+                    </div>
+                    <div class="large">
+                        <p>“Bonsai does the hard work”</p>
+                    </div>
+                    <div class="large">
+                        <p>“Everything is streamlined”</p>
+                    </div>
+                </div>
+
+                <div class="comment-holder">
+                    <div class="large">
+                        <p>“Huge timesaver”</p>
+                    </div>
+                    <div class="large">
+                        <p>“It’s been the most stress-free year of my life!”
+                        </p>
+                    </div>
+                    <div class="large">
+                        <p>“I feel more confident”</p>
+                    </div>
+                    <div class="large">
+                        <p>“Backbone of my business”</p>
+                    </div>
+                    <div class="large">
+                        <p>“So simple”</p>
+                    </div>
+                </div>
+
+                <div class="comment-holder">
+                    <div class="large">
+                        <p>“Clients love how easy my systems are”</p>
+                    </div>
+                    <div class="large">
+                        <p>“A must-have!”</p>
+                    </div>
+                    <div class="large">
+                        <p>“I do less admin and do more of what I love”</p>
+                    </div>
+                    <div class="large">
+                        <p>“Worry-free contracts and invoices”</p>
+                    </div>
+                </div>
+
+                <div class="comment-holder">
+                    <div class="large">
+                        <p>“It pays for itself”</p>
+                    </div>
+                    <div class="large">
+                        <p>“Great customer service!”
+                        </p>
+                    </div>
+                    <div class="large">
+                        <p>“A life-saver!”</p>
+                    </div>
+                    <div class="large">
+                        <p>“Clients take me more seriously”</p>
+                    </div>
+                    <div class="large">
+                        <p>“I upped my rates and won more clients”</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-container">
+                <img alt src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/63692f696516f97a0a53982b_Group%2012657-p-800.png">
+
+                <div class="chat-contents">
+                    <div class="chat-items">
+                        <h2>Need help? We’ll<br>
+                            answer in under 5 minutes
+                        </h2>
+                        <p>Our friendly, speedy, Customer Support has all the answers and is here to help you.</p>
+
+                       <div>
+                        <a href="#">Chat with us</a>
+                       </div>
+                    </div>
+                    <div class="chat-items">
+                        <h2>Quick to set up<br>
+                            Even easier to use
+                        </h2>
+
+                        <p>You get 7 days to try it for free. And if it's not what you expected, we guarantee your money back within the first two weeks.</p>
+
+                        <div class="btn-holder">
+                            <button class="card-btn">Start for free</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="trial-container">
+                <h2>Get started in 30 seconds Free for 7 days</h2>
+
+                <div class="btn-holder">
+                    <button class="card-btn">Start for free</button>
+                </div>
+            </div>
+
+            <footer class="main-footer">
+                <div class="top-footer">
+                    <div>
+                        <img src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635b95cfdbc1e264b35486ad_Symbols.svg" alt="bonsai logo">
+                        <ul>
+                            <li><b>Company</b></li>
+                            <br>
+                            <a href="#"><li>Support</li></a>
+                            <a href="#"><li>Privacy</li></a>
+                            <a href="#"><li>Terms and conditions</li></a>
+                            <a href="#"><li>Careers</li></a>
+                            <br>
+                            <a href="#"><li>Affiliate Program</li></a>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><b>Products</b></li>
+                            <br>
+                            <a href="#"><li>Proposals</li></a>
+                            <a href="#"><li>Contracts</li></a>
+                            <a href="#"><li>Invoicing</li></a>
+                            <a href="#"><li>Client CRM</li></a>
+                            <a href="#"><li>Scheduling</li></a>
+                            <a href="#"><li>Time tracking</li></a>
+                            <a href="#"><li>Task management</li></a>
+                            <a href="#">Forms<li></li></a>
+                            <a href="#">Accounting<li></li></a>
+                            <a href="#"><li>Taxes</li></a>
+                            <a href="#"><li>Banking</li></a>
+                            <br>
+                            <a href="#"><li>Reviews</li></a>
+                            <a href="#"><li>Pricing</li></a>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><b>Business Types</b></li>
+                            <br>
+                            <a href="#"><li>Accounting</li></a>
+                            <a href="#"><li>Agencies</li></a>
+                            <a href="#"><li>Architecture</li></a>
+                            <a href="#"><li>Beauty and Wellness</li></a>
+                            <a href="#"><li>Coaching</li></a>
+                            <a href="#"><li>Consulting</li></a>
+                            <a href="#"><li>Design</li></a>
+                            <a href="#"><li>Event Planning</li></a>
+                            <a href="#"><li>Freelancers</li></a>
+                            <a href="#"><li>Health</li></a>
+                            <a href="#"><li>Interior Design</li></a>
+                            <a href="#"><li>legal</li></a>
+                            <a href="#"><li>Marketing</li></a>
+                            <a href="#"><li>Photography</li></a>
+                            <a href="#"><li>Real-Estate</li></a>
+                            <a href="#"><li>Recruiting</li></a>
+                            <a href="#"><li>Small business</li></a>
+                            <a href="#"><li>Software Development</li></a>
+                            <a href="#"><li>Virtual Assistant</li></a>
+                            <a href="#"><li>Writing</li></a>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><b>Resources</b></li>
+                            <br>
+                            <a href="#"><li>Freelance Resources</li></a>
+                            <a href="#"><li>Blog</li></a>
+                            <a href="#"><li>How to Write a Contract</li></a>
+                            <a href="#"><li>Online Signature Maker</li></a>
+                            <a href="#"><li>Self-Employed Taxes Hub</li></a>
+                            <a href="#"><li>Self-Employed Tax Calculator</li></a>
+                            <a href="#"><li>Self-Employed Tax Deductions</li></a>
+                            <span><li>Comparisons</li><i class="fa-solid fa-chevron-down"></i></span>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><b>Templates</b></li>
+                            <br>
+                            <span><li>Contract</li><i class="fa-solid fa-chevron-down"></i></span>
+                            <span><li>Proposals</li><i class="fa-solid fa-chevron-down"></i></span>
+                            <span><li>Invoices</li><i class="fa-solid fa-chevron-down"></i></span>
+                            <span><li>Forms</li><i class="fa-solid fa-chevron-down"></i></span>
+                            <span><li>Quotes</li><i class="fa-solid fa-chevron-down"></i></span>
+                            <span><li>Scopes of work</li><i class="fa-solid fa-chevron-down"></i></span>
+                            <span><li>Agreements</li><i class="fa-solid fa-chevron-down"></i></span>
+                            <span><li>Briefs</li><i class="fa-solid fa-chevron-down"></i></span>
+                        </ul>
+                    </div>
+                </div>
+                <div class="bottom-footer">
+                    <div class="bottom-footer-container">
+                        <div class="img-holder">
+                            <img src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635fe4f6f27b8975b546ae40_Frame%2012620.svg" alt="">
+                            <img src="https://assets-global.website-files.com/635ac9564cc3682ce1536786/635fe519af5055bb9acb73f3_Frame%2012620%20(1).svg" alt="">
+                        </div>
+
+                        <div id="copyright">
+                            <p>&copy;Bonsai <span class=year-today>year</span></p>
+                            <p>FDIC insured up to $250k</p>
+                        </div>
+
+                    </div>
+                </div>
+
+                <p id="footer-desc">©<span class="year-today">year</span> Bonsai Technologies Inc —  FDIC insured up to $250,000. Payments, banking, and issuing services are provided by Stripe Payments Company, Evolve Bank & Trust (Member FDIC), and Celtic Bank (Member FDIC), respectively. Bonsai is not a law firm, and does not provide legal services, advice, or representation. Some product imagery is for illustrative purposes only and the actual product experience may differ.‍</p>
+            </footer>
+
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="bonsai.js"></script>
+</body>
+</html>
